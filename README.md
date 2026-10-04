@@ -76,22 +76,22 @@ Ratings were statistically calculated using **Bayeselo** based on a benchmark of
 
 ## 👤 Author
 
-* [@antoine-pz](https://github.com/antoine-pz) 
+* **Antoine** [@antoine-pz](https://github.com/antoine-pz) 
 
 ---
 
-## Acknowledgements
+## 📚 Acknowledgements
 
-* [Claude E. Shannon : Programming a Computer for Playing Chess](https://www.computerhistory.org/chess/doc-431614f453dde/)
-* [Mark Lefler : ChessProgrammingWiki](https://www.chessprogramming.org/)
-* [Bruce Moreland : Computer chess topics](https://web.archive.org/web/20071026090003/http://www.brucemo.com/compchess/programming/index.htm)
-* [Lichess : chess-openings](https://github.com/lichess-org/chess-openings)
-* [Tomasz Michniewski : Simplified Evaluation Function](https://www.chessprogramming.org/Simplified_Evaluation_Function)
-* [Rémi Coulom : Bayeselo](https://www.remi-coulom.fr/Bayesian-Elo/)
+* [**Claude E. Shannon** : Programming a Computer for Playing Chess](https://www.computerhistory.org/chess/doc-431614f453dde/)
+* [**Mark Lefler** : ChessProgrammingWiki](https://www.chessprogramming.org/)
+* [**Bruce Moreland** : Computer chess topics](https://web.archive.org/web/20071026090003/http://www.brucemo.com/compchess/programming/index.htm)
+* [**Lichess** : chess-openings](https://github.com/lichess-org/chess-openings)
+* [**Tomasz Michniewski** : Simplified Evaluation Function](https://www.chessprogramming.org/Simplified_Evaluation_Function)
+* [**Rémi Coulom** : Bayeselo](https://www.remi-coulom.fr/Bayesian-Elo/)
 
 ---
 
-## License
+## 📜 License
 
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 Licensed under the MIT License.
@@ -99,6 +99,6 @@ See the `LICENSE` file for details.
 
 ---
 
-## Feedback
+## 💬 Feedback
 
-If you have any feedback, please reach out at baruchdesailly@gmail.com
+If you have any feedback, please reach out at baruchdesailly@gmail.com.
