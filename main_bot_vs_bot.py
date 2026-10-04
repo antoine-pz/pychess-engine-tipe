@@ -12,8 +12,8 @@ import dico_ouvertures
 
 # --- CONFIGURATION DU MATCH ---
 # "NAIF", "MINIMAX", "ELAGAGE", "QUIESCENCE", 'ENDGAME"
-TYPE_BOT_BLANC = "ENDGAME"
-TYPE_BOT_NOIR = "QUIESCENCE"
+TYPE_BOT_BLANC = "QUIESCENCE"
+TYPE_BOT_NOIR = "ENDGAME"
 
 # Profondeurs respectives
 PROF_MINIMAX = 3
@@ -54,16 +54,16 @@ def obtenir_coup_bot(board, type_bot, couleur, ouverture_active):
                 coup = random.choice(meilleurs[:limite])
 
         elif type_bot == "MINIMAX":
-            coup = minimax.meilleur_coup(board, prof=PROF_MINIMAX, couleur=couleur)
+            coup, noeuds = minimax.meilleur_coup(board, prof=PROF_MINIMAX, couleur=couleur)
 
         elif type_bot == "ELAGAGE":
-            coup = minimax_elagage.meilleur_coup(board, prof=PROF_ELAGAGE, couleur=couleur)
+            coup, noeuds = minimax_elagage.meilleur_coup(board, prof=PROF_ELAGAGE, couleur=couleur)
 
         elif type_bot == "QUIESCENCE":
-            coup = minimax_elagage_quiescence.meilleur_coup(board, prof=PROF_QUIESCENCE, couleur=couleur)
+            coup, noeuds = minimax_elagage_quiescence.meilleur_coup(board, prof=PROF_QUIESCENCE, couleur=couleur)
     
         elif type_bot == "ENDGAME":
-            coup = minimax_elagage_quiescence_endgame.meilleur_coup(board, prof=PROF_ENDGAME, couleur=couleur)
+            coup, noeuds = minimax_elagage_quiescence_endgame.meilleur_coup(board, prof=PROF_ENDGAME, couleur=couleur)
 
     temps_reflexion = time.time() - debut_coup
     return coup, est_ouverture, temps_reflexion

@@ -2,6 +2,7 @@ import chess
 
 VALEURS_PIECES = {
     chess.PAWN: 100,
+    chess.KNIGHT: 300,
     chess.BISHOP: 300,
     chess.ROOK: 500,
     chess.QUEEN: 900,

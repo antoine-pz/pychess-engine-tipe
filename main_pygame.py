@@ -318,7 +318,7 @@ while running:
                         global bot_en_calcul
                         coups_legaux = list(echiquier.legal_moves)
                         if coups_legaux != []:
-                            meilleur, noeuds = minimax_elagage_quiescence_endgame.meilleur_coup(echiquier, prof=5, couleur=BOT_COULEUR)
+                            meilleur, noeuds = minimax_elagage_quiescence_endgame.meilleur_coup(echiquier, prof=4, couleur=BOT_COULEUR)
                             echiquier.push(meilleur)
                         bot_en_calcul = False
                         
