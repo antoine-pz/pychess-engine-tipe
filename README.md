@@ -39,7 +39,7 @@ Instead of computing moves from scratch in early turns, the bot uses a custom op
 * **Performance** : If the current board position matches a known opening line, the move is played instantly (0 nodes evaluated), reserving full CPU power for complex midgame positions.
 
 <p align="center">
-  <img src="assets/ouverture.gif" alt="Opening Book Demo" width="700">
+  <img src="./assets/ouverture.gif" alt="Opening Book Demo" width="700">
 </p>
 
 ---
@@ -51,7 +51,7 @@ Deep Minimax calculations with Alpha-Beta pruning can be computationally expensi
 This setup allows players to see the board react smoothly while the bot evaluates variations in the background. It provides a real-time visualization of the engine's decision-making process ! 
 
 <p align="center">
-  <img src="assets/demo_fluide.gif" alt="Multithreading Demo" width="800">
+  <img src="./assets/demo_fluide.gif" alt="Multithreading Demo" width="800">
 </p>
 *(Fun fact : after Bishop to d7, Black has a 0.15 lead according to Stockfish)*
 
