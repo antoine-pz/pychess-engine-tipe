@@ -1,4 +1,4 @@
-# ♟️ Pygame Chess Engine
+# ♟️ Pygame Chess Engine (pychess-engine-TIPE)
 
 A custom Python chess engine exploring tree-search optimization techniques, developed for my CPGE final exam (TIPE).
 
