@@ -59,7 +59,8 @@ This setup allows players to see the board react smoothly while the bot evaluate
 
 ## 📊 Bot Implementations & Estimated Elo
 
-Below is a comparison of the different engine levels implemented in the project. Ratings were statistically calculated using **Bayeselo** based on a benchmark of over 700 matches (`main_tournoi.py`).
+Below is a comparison of the different engine levels implemented in the project.
+Ratings were statistically calculated using **Bayeselo** based on a benchmark of over 700 matches (`main_bot_vs_bot.py` and `main_tournoi.py`).
 
 | Bot Version                     | Depth | Main Upgrade / Technique                     | Estimated Elo |
 | :------------------------------ | :---: | :------------------------------------------- | :-----------: |
