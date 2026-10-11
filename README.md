@@ -1,4 +1,4 @@
-# ♟️ Pygame Chess Engine (pychess-engine-TIPE)
+# Pygame Chess Engine
 
 A custom Python chess engine exploring tree-search optimization techniques, developed for my CPGE final exam (TIPE).
 
@@ -9,7 +9,7 @@ A custom Python chess engine exploring tree-search optimization techniques, deve
 
 ---
 
-## 📌 Concept Overview
+## Concept Overview
 
 I built this project to explore how search tree optimizations and evaluation heuristics improve chess engine performance step-by-step. Built as part of a CPGE TIPE project, it documents the progressive performance gains achieved by transitioning from simple naive evaluation to Minimax with Alpha-Beta Pruning, Quiescence Search, and Transposition Tables.
 
@@ -19,7 +19,7 @@ I built this project to explore how search tree optimizations and evaluation heu
 
 ---
 
-## 🛠️ Libraries & Dependencies
+## Libraries & Dependencies
 
 | Resource / Library | Usage                                                                     |
 | :----------------- | :------------------------------------------------------------------------ |
@@ -30,7 +30,7 @@ I built this project to explore how search tree optimizations and evaluation heu
 
 ---
 
-## 📖 Lichess Opening Book Integration
+## Lichess Opening Book Integration
 
 Instead of computing moves from scratch in early turns, the bot uses a custom opening book (`dico_ouvertures.py`) extracted from Lichess data. Matching positions returns instant moves, saving CPU time for critical midgame positions.
 
@@ -44,7 +44,7 @@ Instead of computing moves from scratch in early turns, the bot uses a custom op
 
 ---
 
-## 🧵 Real-Time Calculation & Multithreading
+## Real-Time Calculation & Multithreading
 
 Deep Minimax calculations with Alpha-Beta pruning can be computationally expensive. By delegating the search functions to a secondary `threading.Thread`, the Pygame loop continues drawing at 30 FPS without stuttering.
 
@@ -57,7 +57,7 @@ This setup allows players to see the board react smoothly while the bot evaluate
 
 ---
 
-## 📊 Bot Implementations & Estimated Elo
+## Bot Implementations & Estimated Elo
 
 Below is a comparison of the different engine levels implemented in the project.
 Ratings were statistically calculated using **Bayeselo** based on a benchmark of over 700 matches (`main_bot_vs_bot.py` and `main_tournoi.py`).
@@ -74,13 +74,13 @@ Ratings were statistically calculated using **Bayeselo** based on a benchmark of
 
 ---
 
-## 👤 Author
+## Author
 
 * **Antoine** [@antoine-pz](https://github.com/antoine-pz) 
 
 ---
 
-## 📚 Acknowledgements
+## Acknowledgements
 
 * [**Claude E. Shannon** : Programming a Computer for Playing Chess](https://www.computerhistory.org/chess/doc-431614f453dde/)
 * [**Mark Lefler** : ChessProgrammingWiki](https://www.chessprogramming.org/)
@@ -91,7 +91,7 @@ Ratings were statistically calculated using **Bayeselo** based on a benchmark of
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 Licensed under the MIT License.
