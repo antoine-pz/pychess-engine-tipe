@@ -96,9 +96,3 @@ Ratings were statistically calculated using **Bayeselo** based on a benchmark of
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 Licensed under the MIT License.
 See the `LICENSE` file for details.
-
----
-
-## 💬 Feedback
-
-If you have any feedback, please reach out at baruchdesailly@gmail.com.
